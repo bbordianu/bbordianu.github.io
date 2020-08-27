@@ -393,21 +393,29 @@ input:focus, textarea:focus {
     opacity: 0;
 }
 
-.page-title h1 {
-    margin: 0;
-    line-height: 1.5;
+.page-title h2 {
+    margin-left: 0px;
+    line-height: ;
+    float: right
 }
 
 .page-title p {
-    margin-top: 25px;
+    float: right;
+    margin-right: 150px;
+    line-height: 20px
 }
 
 .page-title .page-title-image {
-    margin-left: 0px;
+    float: center;
+    margin-top: auto
 }
 
 .page-title .page-title-image img {
-    width: 100%;
+    width: 50%;
+    float: left;
+    margin-right: 30px;
+
+
 }
 
 /*
