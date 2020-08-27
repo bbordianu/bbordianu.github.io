@@ -403,7 +403,7 @@ input:focus, textarea:focus {
 
 .page-title p {
     float: right;
-    margin-right: 150px;
+    margin-right: auto;
     line-height: 20px;
     font-family: lato
 }
