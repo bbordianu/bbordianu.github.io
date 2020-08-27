@@ -45,7 +45,7 @@ body {
 .global-outer .global-inner {
     padding: 80px;
     overflow: hidden;
-    width: 1400px;
+    max-width: 1400px;
     padding-bottom: 10px
 }
 
