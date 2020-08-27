@@ -147,8 +147,8 @@ input:focus, textarea:focus {
 .btn {
     display: inline-block;
     text-align: center;
-    margin: auto;
-    background-color: #48ba86;
+    margin: right;
+    background-color: #000;
     color: #fff;
     font-size: 13px;
     border-radius: 2px;
@@ -158,12 +158,12 @@ input:focus, textarea:focus {
 }
 
 .btn:hover {
-    background-color: #39966c;
+    background-color: #000;
     color: #fff;
 }
 
 .btn:active {
-    background-color: #32845e;
+    background-color: #fff;
 }
 
 .btn:focus {
@@ -402,7 +402,8 @@ input:focus, textarea:focus {
 .page-title p {
     float: right;
     margin-right: 150px;
-    line-height: 20px
+    line-height: 20px;
+    font-family: lato
 }
 
 .page-title .page-title-image {
@@ -464,16 +465,16 @@ input:focus, textarea:focus {
 }
 
 #sidebar nav ul li a.current, #sidebar nav ul li span.current {
-    color: #48ba86;
+    color: #efc19d;
 }
 
 #sidebar nav ul li a:hover, #sidebar nav ul li span:hover {
-    color: #48ba86;
+    color: #efc19d;
     cursor: pointer;
 }
 
 #sidebar nav ul li a:hover:before, #sidebar nav ul li span:hover:before {
-    background-color: #48ba86;
+    background-color: #efc19d;
 }
 
 #sidebar nav ul li.dropdown span {
