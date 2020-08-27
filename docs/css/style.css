@@ -151,10 +151,12 @@ input:focus, textarea:focus {
     background-color: #000;
     color: #fff;
     font-size: 13px;
+    font-family: lato;
     border-radius: 2px;
     padding: 8px 14px;
     -webkit-transition: background-color 200ms;
             transition: background-color 200ms;
+    
 }
 
 .btn:hover {
