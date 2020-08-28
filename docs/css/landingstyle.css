@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css?family=Helvetica');
+
+html, body {
+    margin:0;
+    padding:0;
+    height:100%;
+    width:100%;
+}
+
+.intro {
+    height:100%;
+    width:100%;
+    margin:auto;
+    background-image: url(../img/floral-art-print.jpg);
+    background-size: cover;
+    background-repeat: no-repeat, repeat;
+    display:table;
+    top: 0;
+}
+.intro .inner {
+    display:table-cell;
+    vertical-align: middle;
+    width: 100%;
+    max-width:none;
+}
+.content{
+    margin:0 auto;
+    text-align: center;
+    height: 150px;
+    width:620px;
+    background-color: white;
+}
+.content h1 {
+    font-family: 'Helvetica', sans-serif;
+    color:#82A19C;
+    font-size:60px;
+    font-weight: bold;
+    margin: 0px;
+    transform: translate(-0%, 20%)
+}
+.content h2 {
+    font-family: 'Helvetica', sans-serif;
+    color:#82A19C;
+    font-size:30px;
+    font-weight: normal;
+    transform: translate(0%, 0px);
+    margin-top: 21px
+}
+.button {
+    max-width: 500px;
+    margin:0 auto;
+    text-align: center;
+    max-height: 300px;
+    margin-top: 40px;
+}
+.btn {
+    text-align: center;
+    background-color: #fff;
+    color: #82A19C;
+    font-size: 16px;
+    font-family: Helvetica;
+    border-radius: 0px;
+    padding: 18px 25px;
+}
+.button a {
+    text-decoration: none;
+}
+.btn:hover {
+    background-color: #82A19C;
+    color: #fff;
+    border: 2px solid white;
