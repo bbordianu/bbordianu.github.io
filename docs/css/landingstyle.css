@@ -30,21 +30,23 @@ html, body {
     width:620px;
     background-color: white;
 }
+.content h1, h2 {
+    vertical-align: middle
+}
 .content h1 {
     font-family: 'Helvetica', sans-serif;
     color:#82A19C;
     font-size:60px;
     font-weight: bold;
-    margin: 2px;
-    transform: translate(-0%, 50%)
+    padding-top: 30px;
+    margin: 0px;
 }
 .content h2 {
     font-family: 'Helvetica', sans-serif;
     color:#82A19C;
     font-size:30px;
     font-weight: normal;
-    transform: translate(0%, 17px);
-    margin-top: 21px
+    margin-top: 10px
 }
 .button {
     max-width: 500px;
