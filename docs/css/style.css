@@ -115,7 +115,62 @@ ul {
     font-size: 15px;
     color: #6d6d6d;
 }
+.container{
+  max-width: 700px;
+  height: 600px;
+  background: #fff;
+  box-sizing: border-box;
+  padding-right: 40px;
+  transform: translate(-8%);
+  padding-top:20px;
+}
 
+p2 {
+  text-align: left;
+  letter-spacing: 1px;  
+  font-size: 20px;
+  margin-bottom: 20px;
+  color: #000;
+  font-family: 'Lato', sans-serif;
+  font-weight: normal;
+}
+
+.input,
+.msg .area{
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+  margin-bottom: 25px;
+  border: 2px solid #e9eaea;
+  font-size: 14px;
+  border-radius: 5px;
+  outline: none;
+  transform: all 0.5s ease;
+}
+
+.login .input{
+  width: 48%;
+  float: left;
+  margin-right: 4%;
+}
+
+.login .input:last-child{
+  margin-right: 0;
+}
+
+.msg .area{
+  height: 200px;
+}
+
+
+.input:focus,
+.msg .area:focus{
+  border: 2px solid #486255;
+}
+
+::-webkit-input-placeholder{
+  font-family: 'roboto';
+}
 blockquote {
     font-size: 18px;
     font-family: 'Lora';
@@ -153,10 +208,10 @@ input:focus, textarea:focus {
     margin: right;
     background-color: #000;
     color: #fff;
-    font-size: 13px;
-    font-family: lato;
+    font-size: 14px;
+    font-family: 'Lato', sans-serif;
     border-radius: 2px;
-    padding: 8px 14px;
+    padding: 12px 18px;
     -webkit-transition: background-color 200ms;
             transition: background-color 200ms;
     
