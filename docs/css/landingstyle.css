@@ -35,15 +35,15 @@ html, body {
     color:#82A19C;
     font-size:60px;
     font-weight: bold;
-    margin: 0px;
-    transform: translate(-0%, 20%)
+    margin: 2px;
+    transform: translate(-0%, 50%)
 }
 .content h2 {
     font-family: 'Helvetica', sans-serif;
     color:#82A19C;
     font-size:30px;
     font-weight: normal;
-    transform: translate(0%, 0px);
+    transform: translate(0%, 17px);
     margin-top: 21px
 }
 .button {
