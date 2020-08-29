@@ -1,5 +1,5 @@
 <?php
-$to = 'mail@mail.com'; //Change to your e-mail
+$to = 'b.bordianu@yahoo.com'; //Change to your e-mail
 
 $name = $_POST['name'];
 $subject = $_POST['subject'];
@@ -26,7 +26,7 @@ if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
 	$output[] = array(
 		'status' => 0,
 		'field' => "email",
-		'message' => "Enter corrent e-mail."
+		'message' => "Enter correct e-mail."
 	);
 	$process = false;
 }

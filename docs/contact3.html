@@ -43,19 +43,22 @@
 	           <div class="container">
              <p2>Client Inquiries</p2> <br><br>
              <div class="login">
-              <input type="text" placeholder="Your Name" class="input">
-              <input type="text" placeholder="Your Email Address" class="input">
+              <input id="contact-name" type="text" name="contact-name" placeholder="Your Name" class="input">
+              <input id="contact-email" type="text" name="contact-email" placeholder="Your Email Address" class="input">
              </div>
     
     <div class="subject">
-      <input type="text" placeholder="Subject" class="input">
+      <input id="contact-subject" type="text" name="contact-subject" placeholder="Subject" class="input">
     </div>
     
     <div class="msg">
-      <textarea  class="area" placeholder="Leave a Message"></textarea>
+      <textarea id="contact-message" name="contact-message"  class="area" placeholder="Leave a Message"></textarea>
     </div>
     
-    <div class="btn">Send Message</div>
+     <a class="btn" id="submit" href="#">Send Message</a></div>
+        <div id="message">
+													<div class="error"></div>
+													<div class="success"></div>
   </div>
 						</div>
 					</div>
